@@ -142,3 +142,21 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-list {
+  list-style: none; /* Ensure no bullet points */
+  padding: 0;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex; /* Display items inline */
+  flex-wrap: wrap; /* Allow wrapping if items overflow */
+  gap: 5px; /* Add spacing between items */
+}
+
+.participants-list li {
+  padding: 5px 10px;
+  font-size: 12px; /* Reduced font size */
+  color: #0d47a1;
+  background-color: #bbdefb; /* Add background for each item */
+  border-radius: 3px; /* Rounded corners for items */
+}
